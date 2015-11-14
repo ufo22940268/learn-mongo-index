@@ -14,13 +14,13 @@ function gen(i) {
 }
 
 function printExplain(result) {
-  var report = {};
-  var stats = result.executionStats;
-  report.totalDocsExamined = stats.totalDocsExamined;
-  report.totalKeysExamined = stats.totalKeysExamined;
-  report.winningPlan = result.queryPlanner.winningPlan;
-  console.log("Explain result: ")
-  console.log(JSON.stringify(report, null, 4))
+  //var report = {};
+  //var stats = result.executionStats;
+  //report.totalDocsExamined = stats.totalDocsExamined;
+  //report.totalKeysExamined = stats.totalKeysExamined;
+  //report.winningPlan = result.queryPlanner.winningPlan;
+  console.log("Explain result: ");
+  console.log(JSON.stringify(result, null, 4))
 }
 
 
