@@ -1,0 +1,20 @@
+{
+  "name": "mongo-index-explain",
+  "version": "1.0.0",
+  "description": "Mongo db index profile project. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "Frank Cheng",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "mocha": "^2.3.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.0.48"
+  }
+}
